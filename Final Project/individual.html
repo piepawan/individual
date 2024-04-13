@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Real Estate Agent Website</title>
+    <link rel="stylesheet" type="text/css" href="individual.css">
+</head>
+
+<body>
+    <header>
+        <img src="agent.webp" alt="Agent's Picture">
+        <h1> Dina Goldentayer</h1>
+        <p>Passionate about finding your dream home, I,  Dina Goldentayer, bring years of expertise and a personalized
+            touch to every client interaction. Let's embark on this journey together and turn your real estate dreams
+            into reality.</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="property_1.html">Property 1</a></li> 
+            <li><a href="property_2.html">Property 2</a></li> 
+            <li><a href="property_3.html">Property 3</a></li> 
+            <li><a href="available-properties.html">Available Properties</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="sitemap.html">Site Map</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="property1">
+            <h2>Property 1</h2>
+            <img src="image_1.jpg" alt="Property 1 Picture">
+            <p>Price: $500,000</p>
+            <p>Address: 35 hupfield park, Scarborough</p>
+        </section>
+        <section id="property2">
+            <h2>Property 2</h2>
+            <img src="image_2.jpg" alt="Property 2 Picture">
+            <p>Price: $370,210</p>
+            <p>Address: 50 power st</p>
+        </section>
+        <section id="property3">
+            <h2>Property 3</h2>
+            <img src="image_3.jpg" alt="Property 3 Picture">
+            <p>Price: $230,000</p>
+            <p>Address: 2 Prosperity Pathway</p>
+            <p>Lot size: 200 sqft</p>
+            <p>Number and type of rooms: 13</p>
+        </section>
+        <section id="available-properties">
+            <h2>Available Properties</h2>
+            <ul>
+                <li>
+                    <a href="#property1">
+                        <img src="image_4.webp" alt="Property 1 Picture">
+                        <p>Price: $400,000</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#property2">
+                        <img src="image_5.jpg" alt="Property 2 Picture">
+                        <p>Price: $320,000</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#property3">
+                        <img src="image_3.jpg" alt="Property 3 Picture">
+                        <p>Price: $250,000</p>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <form action="mailto:you@example.com" method="post" enctype="text/plain">
+                <label for="fname">First Name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last Name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="phone">Phone:</label><br>
+                <input type="tel" id="phone" name="phone"><br>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="property-type">Type of Property:</label><br>
+                <input type="text" id="property-type" name="property-type"><br>
+                <label for="bedrooms">Number of Bedrooms:</label><br>
+                <input type="number" id="bedrooms" name="bedrooms"><br>
+                <label for="bathrooms">Number of Bathrooms:</label><br>
+                <input type="number" id="bathrooms" name="bathrooms"><br>
+                <label for="price-range">Price Range:</label><br>
+                <input type="text" id="price-range" name="price-range"><br>
+                <label for="comments">Comments:</label><br>
+                <textarea id="comments" name="comments"></textarea><br>
+                <input type="submit" value="Submit">
+            </form>
+        </section>
